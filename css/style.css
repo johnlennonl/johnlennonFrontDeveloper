@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to right top, #0b131f, #03141a, #041314, #0a110f, #0e0f0e);
+}
+.titulo{
+    font-size: 2rem;
+    color: rgb(221, 220, 220);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.contenedorImg{
+    border-radius: 56%;
+    width: 190px;
+  }
+  .contenedorPerfil{
+    text-align: center;
+  }
+
+.experienciastitulo{
+    color: white;
+}
+.contenedorExperiencias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg,#1c1c1ca9,#6220fbbb);
+    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 35px),calc(100% - 35px) 100%,15px 100%,0 100%);
+}
+
+h3{
+    color:white;
+}
+.contenedorProyectos{
+    border: 1px solid white ;
+    padding: 10px;
+    border-radius: 10px;
+
+}.proyecto{
+    width: 400px;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+span{
+    color: #fcfcfcbb
+}
+
+.progress-bar{
+    background-color: #6220fbbb;
+}
+
+label {
+    color: white;
+}
+
+.btnCOntacto{
+    width: 40%;
+    
+}
